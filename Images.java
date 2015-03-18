@@ -1,13 +1,12 @@
-package MinuMäng;
+package Projekt;
 
-//import java.awt.Color;
 import javax.swing.*;
 import java.awt.*;
 
 public class Images extends JPanel {
-	/**
-	 * 
-	 */
+	
+	  
+	 
 	private static final long serialVersionUID = 1L;
 	public int width = Main.width;
 	public int height = Main.height;
@@ -16,16 +15,14 @@ public class Images extends JPanel {
 	
 	public Image bg;
 	public Image bgg;
+	public Image bggg;
 	
-	//public Images() {
-		//this.setBackground(Color.BLACK); //tausta värvus
-		
-		
-	//}
 	
 	public void loadImages() {
-		bg = new ImageIcon("C:/Rühmatöö_mäng/space.png").getImage();
-		bgg = new ImageIcon("C:/Rühmatöö_mäng/spaceship.png").getImage();
+		bg = new ImageIcon("C:/Oop/space.png").getImage();
+		bgg = new ImageIcon("C:/Oop/spaceship.png").getImage();
+		bggg = new ImageIcon("C:/Oop/meteoor.png").getImage();
+		
 		imagesLoaded = true;
 	}
 }
