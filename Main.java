@@ -16,5 +16,6 @@ public class Main{
 			frame.setLocationRelativeTo(null); //et aken ei ilmuks kogu aeg vasakule
 			frame.setAlwaysOnTop(true); //aken alati teise akna kohale, mitte peale
 		}
+		
 }
 
