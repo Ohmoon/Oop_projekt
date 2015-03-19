@@ -21,5 +21,7 @@ public class Display extends JFrame {
 		
 		gb.add(v6ti);
 		this.add(pilt);
+		
+		Sound.music();
 	}
 }
