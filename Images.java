@@ -13,15 +13,17 @@ public class Images extends JPanel {
 	
 	public boolean imagesLoaded = false;
 	
-	public Image bg;
-	public Image bgg;
-	public Image bggg;
+	public Image taust;
+	public Image laev;
+	public Image meteoor;
+	public Image kuul;
 	
 	
 	public void loadImages() {
-		bg = new ImageIcon("C:/Oop/space.png").getImage();
-		bgg = new ImageIcon("C:/Oop/spaceship.png").getImage();
-		bggg = new ImageIcon("C:/Oop/meteoor.png").getImage();
+		taust = new ImageIcon("C:/Oop/space.png").getImage();
+		laev = new ImageIcon("C:/Oop/spaceship.png").getImage();
+		meteoor = new ImageIcon("C:/Oop/meteoor.png").getImage();
+		kuul = new ImageIcon("C:/Oop/bullet.png").getImage();
 		
 		imagesLoaded = true;
 	}
