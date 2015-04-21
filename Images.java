@@ -16,14 +16,18 @@ public class Images extends JPanel {
 	public Image taust;
 	public Image laev;
 	public Image meteoor;
+	public Image meteoor2;
 	public Image kuul;
+	public Image gameover;
 	
 	
 	public void loadImages() {
-		taust = new ImageIcon("C:/Oop/space.png").getImage();
-		laev = new ImageIcon("C:/Oop/spaceship.png").getImage();
-		meteoor = new ImageIcon("C:/Oop/meteoor.png").getImage();
-		kuul = new ImageIcon("C:/Oop/bullet.png").getImage();
+		taust = new ImageIcon("space.png").getImage();
+		laev = new ImageIcon("spaceship.png").getImage();
+		meteoor = new ImageIcon("meteoor.png").getImage();
+		kuul = new ImageIcon("bullet1.png").getImage();
+		gameover = new ImageIcon ("gameover.png").getImage();
+		
 		
 		imagesLoaded = true;
 	}
