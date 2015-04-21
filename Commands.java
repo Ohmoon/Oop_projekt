@@ -134,8 +134,10 @@ public class Commands extends JPanel  {
 				character.y -= 1;
 			}
 			if(shooting){
-				g.drawImage(Main.frame.pilt.kuul, kuul.x+27, kuul.y-10,10,10, null );
-				kuul.y-= 1;
+				g.drawImage(Main.frame.pilt.kuul, character.x+25, character.y-16,15,15  , null );
+				if (kuul.y>0){
+					kuul.y-= 2;
+				}
 				try {
 					Sound.music1();
 				} catch (MalformedURLException e) {
@@ -145,6 +147,7 @@ public class Commands extends JPanel  {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+
 		
 			}
 			Rectangle r1 = character.getBounds();
