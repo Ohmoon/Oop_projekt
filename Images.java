@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Images extends JPanel {
 	
-	  
+	 //legit
 	 
 	private static final long serialVersionUID = 1L;
 	public int width = Main.width;
